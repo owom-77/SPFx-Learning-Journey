@@ -1,0 +1,175 @@
+/* CRUDReact.module.scss */
+
+.container {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1f2937; /* dark gray */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+.input,
+.inputDate {
+  padding: 0.6rem 1rem;
+  border: 1.5px solid #cbd5e1; /* light blue-gray */
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  min-width: 200px;
+}
+
+.input:focus,
+.inputDate:focus {
+  outline: none;
+  border-color: #2563eb; /* blue */
+  box-shadow: 0 0 6px rgba(37, 99, 235, 0.6);
+}
+
+.buttonAdd {
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+  padding: 0.6rem 2rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.buttonAdd:hover {
+  background-color: #1e40af;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  background-color: #f9fafb;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e2e8f0;
+}
+
+.listItem strong {
+  font-size: 1.2rem;
+  color: #111827;
+}
+
+.details {
+  margin: 0.3rem 0 0.7rem;
+  color: #4b5563;
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.buttonEdit {
+  background-color: #facc15;
+  border: none;
+  padding: 0.4rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #1f2937;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.buttonEdit:hover {
+  background-color: #ca8a04;
+}
+
+.buttonDelete {
+  background-color: #dc2626;
+  border: none;
+  padding: 0.4rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.buttonDelete:hover {
+  background-color: #991b1b;
+}
+
+.editInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.editInput {
+  padding: 0.5rem 1rem;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.editInput:focus {
+  outline: none;
+  border-color: #6366f1; /* indigo */
+  box-shadow: 0 0 6px rgba(99, 102, 241, 0.6);
+}
+
+.editButtons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.buttonSave {
+  background-color: #22c55e;
+  border: none;
+  padding: 0.4rem 1.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  transition: background-color 0.25s ease;
+}
+
+.buttonSave:hover {
+  background-color: #16a34a;
+}
+
+.buttonCancel {
+  background-color: #6b7280;
+  border: none;
+  padding: 0.4rem 1.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: background-color 0.25s ease;
+}
+
+.buttonCancel:hover {
+  background-color: #4b5563;
+}
