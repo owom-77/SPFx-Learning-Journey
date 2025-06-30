@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pract-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pract/PractWebPart.js",
+          "manifest": "./src/webparts/pract/PractWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PractWebPartStrings": "lib/webparts/pract/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "practice-omkar-client-side-solution",
+    "id": "16396226-1431-46f7-ab1a-827fb8b781e3",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "practiceOmkar description"
+      },
+      "longDescription": {
+        "default": "practiceOmkar description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "practice-omkar Feature",
+        "description": "The feature that activates elements of the practice-omkar solution.",
+        "id": "c52fbc52-66d9-4a07-a071-c767d33b78d2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/practice-omkar.sppkg"
+  }
+}

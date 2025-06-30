@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-practice-client-side-solution",
+    "id": "a25504dd-3e69-4ab0-a9a3-d421a69b0a43",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "React-practice description"
+      },
+      "longDescription": {
+        "default": "React-practice description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-practice Feature",
+        "description": "The feature that activates elements of the react-practice solution.",
+        "id": "179e8a7c-4bca-4bc4-ae32-b387acd3ab6f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-practice.sppkg"
+  }
+}

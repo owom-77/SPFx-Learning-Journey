@@ -1,0 +1,195 @@
+/* General container styling */
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  /* Form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  form label {
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 8px;
+  }
+  
+  form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+  }
+  
+  form input:focus {
+    outline: none;
+    border-color: #0078d4;
+    box-shadow: 0 0 5px rgba(0, 120, 212, 0.2);
+  }
+  
+  /* Submit Button */
+  form button {
+    background-color: #0078d4;
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  form button:hover {
+    background-color: #005a9e;
+  }
+  
+  /* Table Styling */
+  .tableWrapper {
+    margin-top: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  table th,
+  table td {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    font-size: 16px;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  table td {
+    color: #555;
+  }
+  
+  /* Action Buttons */
+  .actions button {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .actions button.editBtn {
+    background-color: #ffc107;
+    color: #000;
+  }
+  
+  .actions button.deleteBtn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .actions button.saveBtn {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .actions button.cancelBtn {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  /* Button Hover States */
+  .actions button:hover {
+    opacity: 0.85;
+  }
+  
+  /* Input field for editing */
+  .editField {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styling for Cancel Button inside Edit */
+  .editField.cancelBtn {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  /* Additional container for styling action buttons */
+  .actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  /* Modal / Pop-Up styles for Edit functionality (optional) */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  .modal.show {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+  }
+  
+  .modalContent h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .modalContent button {
+    background-color: #0078d4;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modalContent button:hover {
+    background-color: #005a9e;
+  }
+  

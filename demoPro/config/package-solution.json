@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "demo-pro-client-side-solution",
+    "id": "31437664-1317-405f-8810-cb8ffb42eb4c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "demoPro description"
+      },
+      "longDescription": {
+        "default": "demoPro description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "demo-pro Feature",
+        "description": "The feature that activates elements of the demo-pro solution.",
+        "id": "d93d222b-ea6f-4f3b-8d65-f0f13ef417e6",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/demo-pro.sppkg"
+  }
+}
