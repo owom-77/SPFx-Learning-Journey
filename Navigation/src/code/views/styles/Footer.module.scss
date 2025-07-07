@@ -1,0 +1,90 @@
+.footer {
+  background-color: #24292e;
+  color: #fff;
+  padding: 40px 20px 20px;  /* More vertical padding */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  opacity: 0.7;
+}
+
+.footerContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.companyInfo,
+.quickLinks,
+.socialSection {
+  flex: 1 1 300px; /* Flexible width but minimum 300px */
+}
+
+.companyInfo h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+.companyInfo p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.quickLinks h4,
+.socialSection h4 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.quickLinks ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quickLinks li {
+  margin-bottom: 10px;
+}
+
+.quickLinks a {
+  color: #ddd;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.quickLinks a:hover {
+  color: #ffd700;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.socialIcon {
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.socialIcon:hover {
+  color: #1da1f2; /* Twitter blue */
+}
+
+.bottomBar {
+  max-width: 1200px;
+  margin: 30px auto 0 auto;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.7;
+}

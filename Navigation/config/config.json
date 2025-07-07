@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "routing-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/routing/RoutingWebPart.js",
+          "manifest": "./src/webparts/routing/RoutingWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RoutingWebPartStrings": "lib/webparts/routing/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

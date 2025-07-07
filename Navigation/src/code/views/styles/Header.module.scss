@@ -1,0 +1,109 @@
+/* Header.module.scss */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #24292e;
+  padding: 10px;
+  height: 60px;
+  color: #ffd700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 1360px;
+  z-index: 1000;
+  // position: sticky;
+  position: fixed;
+  opacity: 0.7;
+}
+
+
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navItem {
+  position: relative;
+  margin-left: 15px;
+}
+
+.navButton {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navButton:hover {
+  background-color: #ffd700;
+  // opacity: .7;
+  color: #24292e;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;  /* This centers the container */
+  padding: 0 20px; /* Add horizontal padding */
+  text-align: center; /* Optional: center the text inside */
+}
+
+/* Dropdown menu styles */
+.dropdownMenu {
+  position: absolute;
+  top: 100%; /* right below the button */
+  left: 0;
+  background-color: #24292e;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  min-width: 160px;
+  padding: 8px 0;
+  z-index: 1100;
+}
+
+.dropdownItem {
+  padding: 0;
+  margin: 0;
+}
+
+.dropdownButton {
+  background: none;
+  border: none;
+  color: #fff;
+  width: 100%;
+  text-align: left;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+.dropdownButton:hover,
+.dropdownButton:focus {
+  background-color: #ffd700;
+  color: #24292e;
+  outline: none;
+}
+
+.headerContainer {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

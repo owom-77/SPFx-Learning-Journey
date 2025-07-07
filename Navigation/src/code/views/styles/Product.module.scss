@@ -1,0 +1,32 @@
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: #24292e;
+  text-transform: capitalize;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.message {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.messageError {
+  color: #c00;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 40px;
+}
