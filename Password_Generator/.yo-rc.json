@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.8",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "password-generator",
+    "libraryId": "2ebcab2f-e326-4bc5-8ad5-aef14a6325dc",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "password-generator",
+    "solutionShortDescription": "password-generator description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
